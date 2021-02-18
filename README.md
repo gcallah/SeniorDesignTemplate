@@ -4,6 +4,8 @@ A template for senior design projects at Tandon.
 
 We will use [markdown](https://www.markdownguide.org) for most of our documentation.
 
+To set up a development environment, clone this repo and then run `make dev_env`.
+
 ## Goal
 
 The aim of this repo is to provide a simple project template for students
