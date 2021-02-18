@@ -6,7 +6,7 @@ This is the test suite for sample.py.
 from unittest import TestCase
 
 
-from src.sample import main
+from sample import main
 
 SUCCESS = 0
 

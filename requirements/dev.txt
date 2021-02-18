@@ -1,3 +1,4 @@
 -r prod.txt
 nose
 coverage
+flake8

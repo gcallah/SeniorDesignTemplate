@@ -3,7 +3,8 @@
 FORCE:
 
 tests: FORCE
-	nosetests --cover-package=src
+	flake8 *.py
+	nosetests --with-coverage --cover-package=.
 
 prod: tests
 	git commit -a
