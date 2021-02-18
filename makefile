@@ -10,4 +10,4 @@ prod: tests
 	git push origin main
 
 dev_env: FORCE
-	pip install -r requirements/dev.txt
+	pip install --user -r requirements/dev.txt
