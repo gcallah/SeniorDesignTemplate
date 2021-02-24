@@ -6,5 +6,9 @@ python:
 install:
     - pip install -r requirements/dev.txt
 
+env:
+    global:
+        - PYTHONPATH=/home/travis/build/gcallah/SeniorDesignTemplate
+
 script:
     - make tests
