@@ -6,6 +6,21 @@ tests to the code.
 """
 
 
+def list_tasks():
+    """
+    This functions will return a list of tasks.
+    By default, it will return all tasks.
+    It will also take parameter allowing tasks to be filtered by:
+
+        - user
+        - date started
+        - date due
+
+    What happens if DB is down?
+    """
+    pass
+
+
 def some_func(x):
     """
     This function just exists to show how our tools can work with docstrings.
